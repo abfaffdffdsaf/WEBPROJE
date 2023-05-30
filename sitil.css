@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    
+    }
+    
+    .container{     /*sayfa arkaplanında ki resim  */
+        background:url(resimler/arkaplan.jpg);
+        height: 100vh;      
+        background-size: 100% 100%;
+        
+    }
+
+    .container2{
+
+        background:url(resimler/login1.jpeg);
+        height: 100vh;      
+        background-size: 100% 100%;
+
+    }
+    
+    .container .navbar{ /* menünün arkaplanı */
+        width: 100%; /*genişlik*/
+        height: 80px;/*yükseklik*/
+        background: rgba(105, 165, 158, 0.683);
+        position: fixed;   /* her zaman üst taraf da gözükebilmesi için*/
+        top:0 ;
+
+    
+    
+    
+    }
+    
+.navbar ul{
+    float:right;
+    margin-right: 20px;
+}
+    
+    
+    .navbar ul li{
+        list-style: none;
+        display:inline-block;
+        margin: 0.8 px;/* aralarında ki boşuk */
+        line-height: 80px;
+
+    }
+
+    .navbar ul li a{
+        color:white;
+        text-decoration: none;
+        font-size: 20px;   /*yazı büyüklüğü*/
+        padding: 6px 13px;
+         }
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:#ffc400f8;
+}
+
+.container.giris{
+position: absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%,-50%)
+}
+
+.giris h1 {
+    color:white;
+    font-size: 60px;
+    font-weight:bold;
+    width: 1300px;
+    
+}
+
+.giris h2{
+    color:white;
+    font-size: 40px;
+    font-weight:bold;
+    width: 950px;
+    margin-top: 10px;  /*aşşağı kaydırma*/
+   
+    
+}
+
+
+.kullanıcıgirişi form{
+    color:white;
+    font-size: 30px;
+    margin-top: 360px;
+    text-align:center; /*yazıyı ortalama*/
+
+}
+
+@media (max-width: 991px){   /*web penceresini küçültme*/
+   html{
+    font-size:  55%;
+   } 
+
+   .container{
+    padding: 1.5rem 2rem;
+   }
+}
+
+.container{
+    
+    text-align:center; 
+    background-color: rgba(105, 165, 158, 0.683);
+        
+}
+
+
+
+.hakkında1{
+    margin-top: 450px;
+    text-align:center; 
+    background-color: rgba(105, 165, 158, 0.683);
+        
+}
+
